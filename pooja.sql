@@ -1,0 +1,13 @@
+create database english;
+use english;
+show databases;
+create table employees1 (emp_id int, emp_name varchar(100),city varchar(50));
+desc employees1;
+alter table employees1 add department varchar(50);
+select*from employees1;
+alter table employees1 rename column emp_name to full_name;
+select*from employees1;
+truncate table employee1;
+select*from employees1;
+drop table employees1;
+show tables;
